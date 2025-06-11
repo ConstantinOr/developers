@@ -1,5 +1,6 @@
 import { config } from 'dotenv';
 import { DataSourceOptions } from 'typeorm';
+import { ExchangeRateEntity } from '../../services/exchange-rate/exchange-rate.entity';
 
 config();
 
@@ -21,5 +22,5 @@ export const typeormConfig: DataSourceOptions = {
     synchronize: false,
     migrationsRun: true,
     migrations: ['dist/migrations/*.js'],
-    entities: ['dist/entities/*.entity.js'],
+    entities: [ExchangeRateEntity],
 };

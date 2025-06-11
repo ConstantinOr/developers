@@ -1,0 +1,588 @@
+{
+  "version": "6.0",
+  "nxVersion": "21.1.3",
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": ".idea/misc.xml",
+        "hash": "200371898331151692"
+      },
+      {
+        "file": ".idea/codeStyles/codeStyleConfig.xml",
+        "hash": "4690022301721055948"
+      },
+      {
+        "file": ".vscode/settings.json",
+        "hash": "5434530949978132344"
+      },
+      {
+        "file": "pnpm-lock.yaml",
+        "hash": "4504204883993693339"
+      },
+      {
+        "file": ".yarn/sdks/typescript/bin/tsc",
+        "hash": "10666650432257705452"
+      },
+      {
+        "file": ".yarn/sdks/typescript/bin/tsserver",
+        "hash": "15690408123434230734"
+      },
+      {
+        "file": "yarn.lock",
+        "hash": "2374563915209143457"
+      },
+      {
+        "file": ".idea/task.iml",
+        "hash": "7210100432694438571"
+      },
+      {
+        "file": ".idea/.gitignore",
+        "hash": "3753433530925754155"
+      },
+      {
+        "file": "nx.json",
+        "hash": "1860286689820212635"
+      },
+      {
+        "file": ".yarn/sdks/eslint/bin/eslint.js",
+        "hash": "457324197634674399"
+      },
+      {
+        "file": ".yarn/sdks/eslint/package.json",
+        "hash": "660692813200224848"
+      },
+      {
+        "file": ".yarn/sdks/typescript/lib/tsserver.js",
+        "hash": "12444144433192138730"
+      },
+      {
+        "file": ".editorconfig",
+        "hash": "11054611362303832288"
+      },
+      {
+        "file": ".yarn/sdks/prettier/index.js",
+        "hash": "18224682556900476610"
+      },
+      {
+        "file": ".yarn/sdks/typescript/lib/typescript.js",
+        "hash": "13627211681381277112"
+      },
+      {
+        "file": ".idea/vcs.xml",
+        "hash": "427964275039610795"
+      },
+      {
+        "file": "README.md",
+        "hash": "275240035860682113"
+      },
+      {
+        "file": "tsconfig.json",
+        "hash": "367184067612230208"
+      },
+      {
+        "file": ".yarn/sdks/typescript/package.json",
+        "hash": "11762994460026894396"
+      },
+      {
+        "file": ".prettierignore",
+        "hash": "2560046049459826808"
+      },
+      {
+        "file": ".vscode/extensions.json",
+        "hash": "9966990234491576620"
+      },
+      {
+        "file": "jest.config.ts",
+        "hash": "9482741266619385892"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "17332201399259702261"
+      },
+      {
+        "file": ".yarn/sdks/prettier/package.json",
+        "hash": "4379255143058924997"
+      },
+      {
+        "file": ".yarn/plugins/@yarnpkg/plugin-workspace-tools.cjs",
+        "hash": "12444190489365168871"
+      },
+      {
+        "file": ".idea/modules.xml",
+        "hash": "12289220624150936110"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "1029863761648772148"
+      },
+      {
+        "file": "pnpm-workspace.yaml",
+        "hash": "7681509393527711264"
+      },
+      {
+        "file": "package.json",
+        "hash": "7772098289176210972"
+      },
+      {
+        "file": ".yarn/sdks/typescript/lib/tsc.js",
+        "hash": "4914677750769979712"
+      },
+      {
+        "file": ".nvmrc",
+        "hash": "12521840887060249230"
+      },
+      {
+        "file": ".yarn/sdks/integrations.yml",
+        "hash": "12213087882799053847"
+      },
+      {
+        "file": ".yarn/sdks/eslint/lib/api.js",
+        "hash": "9218057077919128729"
+      },
+      {
+        "file": ".yarnrc.yml",
+        "hash": "15977101563327238458"
+      },
+      {
+        "file": ".idea/prettier.xml",
+        "hash": "13711802271405639796"
+      },
+      {
+        "file": ".idea/inspectionProfiles/Project_Default.xml",
+        "hash": "8912173605315939135"
+      },
+      {
+        "file": ".idea/codeStyles/Project.xml",
+        "hash": "6734631135880111364"
+      },
+      {
+        "file": ".yarn/sdks/typescript/lib/tsserverlibrary.js",
+        "hash": "12283674441844894648"
+      },
+      {
+        "file": ".idea/libraries/cache.xml",
+        "hash": "17175108224184088940"
+      }
+    ],
+    "projectFileMap": {
+      "@dishboard/jest-config": [
+        {
+          "file": "packages/tools/dishboard-jest-config/index.ts",
+          "hash": "15292974381177411827"
+        },
+        {
+          "file": "packages/tools/dishboard-jest-config/package.json",
+          "hash": "5215234264489822185"
+        }
+      ],
+      "server": [
+        {
+          "file": "packages/server/.env",
+          "hash": "548333612074198343"
+        },
+        {
+          "file": "packages/server/.eslintrc.js",
+          "hash": "18091868604771713359"
+        },
+        {
+          "file": "packages/server/.gitignore",
+          "hash": "15532026364874070707"
+        },
+        {
+          "file": "packages/server/.prettierignore",
+          "hash": "16589059141931143037"
+        },
+        {
+          "file": "packages/server/README.md",
+          "hash": "135456530656435915"
+        },
+        {
+          "file": "packages/server/jest.config.ts",
+          "hash": "3919560131200035899",
+          "deps": [
+            "@dishboard/jest-config"
+          ]
+        },
+        {
+          "file": "packages/server/nest-cli.json",
+          "hash": "1240547847479004648"
+        },
+        {
+          "file": "packages/server/package.json",
+          "hash": "10791721400493308649",
+          "deps": [
+            "npm:eslint@8.57.1",
+            "npm:prettier",
+            "npm:typescript@5.8.3",
+            "npm:@nestjs/cli",
+            "npm:@nestjs/schematics@9.0.0",
+            "npm:@nestjs/testing",
+            "npm:@rushstack/eslint-patch",
+            "npm:@sentry/types",
+            "npm:@types/bcrypt",
+            "npm:@types/crypto-js",
+            "npm:@types/express",
+            "npm:@types/fluent-ffmpeg",
+            "npm:@types/jest",
+            "npm:@types/node@24.0.0",
+            "npm:@types/passport-jwt",
+            "npm:@types/pg",
+            "npm:@types/supertest",
+            "npm:@types/ws",
+            "npm:eslint-import-resolver-typescript",
+            "npm:eslint-plugin-import",
+            "npm:jest",
+            "npm:source-map-support",
+            "npm:supertest",
+            "npm:ts-jest",
+            "npm:ts-node",
+            "npm:tsconfig-paths@4.2.0",
+            "npm:typeorm-ts-node-commonjs",
+            "npm:@nestjs/apollo",
+            "npm:@nestjs/axios",
+            "npm:@nestjs/common",
+            "npm:@nestjs/config",
+            "npm:@nestjs/core",
+            "npm:@nestjs/graphql",
+            "npm:@nestjs/jwt",
+            "npm:@nestjs/passport",
+            "npm:@nestjs/platform-express",
+            "npm:@nestjs/typeorm@9.0.1",
+            "npm:@nestjs/websockets",
+            "npm:@sentry/core",
+            "npm:@sentry/node",
+            "npm:@tuya/tuya-connector-nodejs",
+            "npm:apollo-server-core",
+            "npm:apollo-server-express",
+            "npm:axios",
+            "npm:bcrypt",
+            "npm:class-transformer",
+            "npm:class-validator",
+            "npm:crypto-js",
+            "npm:dataloader",
+            "npm:dotenv",
+            "npm:express",
+            "npm:fluent-ffmpeg",
+            "npm:graphql",
+            "npm:graphql-subscriptions",
+            "npm:graphql-ws",
+            "npm:mqtt",
+            "npm:passport",
+            "npm:passport-jwt",
+            "npm:pg",
+            "npm:reflect-metadata",
+            "npm:rimraf",
+            "npm:rxjs",
+            "npm:typeorm@0.3.24",
+            "npm:ws"
+          ]
+        },
+        {
+          "file": "packages/server/project.json",
+          "hash": "1104070227236570189"
+        },
+        {
+          "file": "packages/server/schema.gql",
+          "hash": "15958098041718769927"
+        },
+        {
+          "file": "packages/server/scripts/db-create.sh",
+          "hash": "7319467915540836438"
+        },
+        {
+          "file": "packages/server/src/app.module.ts",
+          "hash": "5739228555776059188"
+        },
+        {
+          "file": "packages/server/src/common/entities/entity-with-meta.ts",
+          "hash": "8958720499401599654"
+        },
+        {
+          "file": "packages/server/src/common/entities/index.ts",
+          "hash": "14231173893740939725"
+        },
+        {
+          "file": "packages/server/src/common/index.ts",
+          "hash": "8548890256456938174"
+        },
+        {
+          "file": "packages/server/src/config/graphql/graphql-config.ts",
+          "hash": "13359558945783672873"
+        },
+        {
+          "file": "packages/server/src/config/graphql/index.ts",
+          "hash": "3632605280900155741"
+        },
+        {
+          "file": "packages/server/src/config/index.ts",
+          "hash": "7333957050693388539"
+        },
+        {
+          "file": "packages/server/src/config/init-db.ts",
+          "hash": "11912805048655134720"
+        },
+        {
+          "file": "packages/server/src/config/run-migrations.ts",
+          "hash": "15225279224954302711"
+        },
+        {
+          "file": "packages/server/src/config/test-connection.ts",
+          "hash": "544121327653363856"
+        },
+        {
+          "file": "packages/server/src/config/typeorm.config.ts",
+          "hash": "9822130610487833116"
+        },
+        {
+          "file": "packages/server/src/config/typeorm/data-source.ts",
+          "hash": "554918245751880126"
+        },
+        {
+          "file": "packages/server/src/config/typeorm/index.ts",
+          "hash": "4125871453432702063"
+        },
+        {
+          "file": "packages/server/src/config/typeorm/typeorm-config.ts",
+          "hash": "7995888049726440145"
+        },
+        {
+          "file": "packages/server/src/currency/currency.module.ts",
+          "hash": "9974016207162418048",
+          "deps": [
+            "npm:@nestjs/common@9.3.12",
+            "npm:@nestjs/typeorm@9.0.1"
+          ]
+        },
+        {
+          "file": "packages/server/src/currency/currency.resolver.ts",
+          "hash": "4485303687445569251",
+          "deps": [
+            "npm:@nestjs/graphql"
+          ]
+        },
+        {
+          "file": "packages/server/src/currency/currency.service.ts",
+          "hash": "9849315135946939376",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/typeorm@9.0.1",
+            "npm:typeorm@0.3.24",
+            "npm:@nestjs/axios",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "packages/server/src/currency/entities/exchange-rate.entity.ts",
+          "hash": "5989771911731279962",
+          "deps": [
+            "npm:typeorm@0.3.24"
+          ]
+        },
+        {
+          "file": "packages/server/src/entities/constants.ts",
+          "hash": "14021592099215526660"
+        },
+        {
+          "file": "packages/server/src/entities/example.entity.ts",
+          "hash": "12126856938966930187"
+        },
+        {
+          "file": "packages/server/src/entities/index.ts",
+          "hash": "3716331407730376903"
+        },
+        {
+          "file": "packages/server/src/entity-modules/example/dto/create-example.input-type.ts",
+          "hash": "2560548477798286364"
+        },
+        {
+          "file": "packages/server/src/entity-modules/example/dto/index.ts",
+          "hash": "12343550222593066082"
+        },
+        {
+          "file": "packages/server/src/entity-modules/example/example.module.ts",
+          "hash": "2740471434862321371"
+        },
+        {
+          "file": "packages/server/src/entity-modules/example/example.repository.ts",
+          "hash": "6818290339050107537"
+        },
+        {
+          "file": "packages/server/src/entity-modules/example/example.resolver.ts",
+          "hash": "9590209138813682907"
+        },
+        {
+          "file": "packages/server/src/entity-modules/example/example.service.ts",
+          "hash": "16506041561878390856"
+        },
+        {
+          "file": "packages/server/src/entity-modules/index.ts",
+          "hash": "18317267850971323338"
+        },
+        {
+          "file": "packages/server/src/main.ts",
+          "hash": "11214928975319476199",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/config",
+            "npm:@nestjs/core",
+            "npm:class-validator"
+          ]
+        },
+        {
+          "file": "packages/server/src/migrations/1710864000000-CreateExchangeRates.ts",
+          "hash": "13694760477590990003"
+        },
+        {
+          "file": "packages/server/src/services/exchange-rate/exchange-rate.entity.ts",
+          "hash": "7547297624884203856"
+        },
+        {
+          "file": "packages/server/src/services/exchange-rate/exchange-rate.module.ts",
+          "hash": "3595143752889659932"
+        },
+        {
+          "file": "packages/server/src/services/exchange-rate/exchange-rate.resolver.ts",
+          "hash": "2639742931046177720"
+        },
+        {
+          "file": "packages/server/src/services/exchange-rate/exchange-rate.service.ts",
+          "hash": "13383339764221347651"
+        },
+        {
+          "file": "packages/server/src/services/exchange-rate/exchange-rate.types.ts",
+          "hash": "17486746462077172434"
+        },
+        {
+          "file": "packages/server/tsconfig.build.json",
+          "hash": "4624938166691628057"
+        },
+        {
+          "file": "packages/server/tsconfig.json",
+          "hash": "8849006494952499134"
+        }
+      ],
+      "@dishboard/eslint-config": [
+        {
+          "file": "packages/tools/dishboard-eslint-config/index.js",
+          "hash": "12733798268056531822"
+        },
+        {
+          "file": "packages/tools/dishboard-eslint-config/package.json",
+          "hash": "861195000451620692"
+        }
+      ],
+      "client": [
+        {
+          "file": "packages/client/.eslintrc.js",
+          "hash": "15188502675536933094"
+        },
+        {
+          "file": "packages/client/.gitignore",
+          "hash": "13046175384202504187"
+        },
+        {
+          "file": "packages/client/index.html",
+          "hash": "7444997151302456827"
+        },
+        {
+          "file": "packages/client/jest.config.ts",
+          "hash": "3919560131200035899",
+          "deps": [
+            "@dishboard/jest-config"
+          ]
+        },
+        {
+          "file": "packages/client/package.json",
+          "hash": "9183981193253138164",
+          "deps": [
+            "npm:eslint@8.57.1",
+            "npm:prettier",
+            "npm:typescript@5.8.3",
+            "npm:@babel/core@7.23.0",
+            "npm:@types/jest",
+            "npm:@types/react@18.3.23",
+            "npm:@types/react-dom@18.3.7",
+            "npm:@types/styled-components@5.1.34",
+            "npm:@typescript-eslint/eslint-plugin@6.21.0",
+            "npm:@typescript-eslint/parser@6.21.0",
+            "npm:@vitejs/plugin-react@4.5.2",
+            "npm:cross-env@7.0.3",
+            "npm:eslint-import-resolver-typescript@3.5.3",
+            "npm:eslint-plugin-import@2.27.5",
+            "npm:eslint-plugin-react@7.31.8",
+            "npm:eslint-plugin-react-hooks@4.6.2",
+            "npm:eslint-plugin-react-refresh@0.4.20",
+            "npm:jest",
+            "npm:ts-jest",
+            "npm:vite@5.4.19",
+            "npm:vite-tsconfig-paths@4.3.2",
+            "npm:@apollo/client@3.7.10",
+            "npm:date-fns@3.6.0",
+            "npm:graphql@16.6.0",
+            "npm:graphql-tag@2.12.6",
+            "npm:graphql-ws@5.12.0",
+            "npm:react@18.3.1",
+            "npm:react-dom@18.3.1",
+            "npm:react-is@18.2.0",
+            "npm:styled-components@5.3.9"
+          ]
+        },
+        {
+          "file": "packages/client/project.json",
+          "hash": "13342799035651858328"
+        },
+        {
+          "file": "packages/client/public/vite.svg",
+          "hash": "16046085400642193116"
+        },
+        {
+          "file": "packages/client/src/App.css",
+          "hash": "2645316287400525028"
+        },
+        {
+          "file": "packages/client/src/App.tsx",
+          "hash": "1315436852952562085"
+        },
+        {
+          "file": "packages/client/src/components/ExchangeRateTable.css",
+          "hash": "2378633751880688519"
+        },
+        {
+          "file": "packages/client/src/components/ExchangeRateTable.tsx",
+          "hash": "10246303742537226730"
+        },
+        {
+          "file": "packages/client/src/main.tsx",
+          "hash": "12073573939410019733",
+          "deps": [
+            "npm:react@18.3.1",
+            "npm:react-dom@18.3.1",
+            "npm:@apollo/client@3.7.10"
+          ]
+        },
+        {
+          "file": "packages/client/src/types/exchange-rate.ts",
+          "hash": "5245207317507952655"
+        },
+        {
+          "file": "packages/client/src/vite-env.d.ts",
+          "hash": "12946363841406869089"
+        },
+        {
+          "file": "packages/client/tsconfig.json",
+          "hash": "18438190646367207599"
+        },
+        {
+          "file": "packages/client/tsconfig.node.json",
+          "hash": "17120895727083879579"
+        },
+        {
+          "file": "packages/client/vite.config.ts",
+          "hash": "16282180654049710771"
+        }
+      ]
+    }
+  }
+}

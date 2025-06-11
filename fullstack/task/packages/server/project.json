@@ -14,17 +14,17 @@
             }
         },
         "serve": {
-            "executor": "nx:run-script",
+            "executor": "nx:run-commands",
             "options": {
                 "cwd": "packages/server",
-                "script": "serve"
+                "command": "npx nest start --debug 0.0.0.0 --watch"
             }
         },
         "start": {
             "executor": "nx:run-commands",
             "options": {
                 "cwd": "packages/server",
-                "command": "yarn nest start --debug 0.0.0.0 --watch"
+                "command": "npx nest start --debug 0.0.0.0 --watch"
             }
         },
         "db-create": {
@@ -42,16 +42,16 @@
             },
             "configurations": {
                 "run": {
-                    "command": "yarn typeorm-ts-node-commonjs migration:run -d ./src/config/typeorm/data-source.ts"
+                    "command": "npx typeorm-ts-node-commonjs migration:run -d ./src/config/typeorm/data-source.ts"
                 },
                 "revert": {
-                    "command": "yarn typeorm-ts-node-commonjs migration:revert -d ./src/config/typeorm/data-source.ts"
+                    "command": "npx typeorm-ts-node-commonjs migration:revert -d ./src/config/typeorm/data-source.ts"
                 },
                 "generate": {
-                    "command": "yarn typeorm-ts-node-commonjs migration:generate -d ./src/config/typeorm/data-source.ts ./src/migrations/{args.name}"
+                    "command": "npx typeorm-ts-node-commonjs migration:generate -d ./src/config/typeorm/data-source.ts ./src/migrations/{args.name}"
                 },
                 "create": {
-                    "command": "yarn typeorm-ts-node-commonjs migration:create -d ./src/config/typeorm/data-source.ts ./src/migrations/{args.name}"
+                    "command": "npx typeorm-ts-node-commonjs migration:create -d ./src/config/typeorm/data-source.ts ./src/migrations/{args.name}"
                 }
             }
         }
