@@ -1,0 +1,53 @@
+> npx nest start --debug 0.0.0.0 --watch
+
+
+[1G[0K[2J[3J[H[[90m8:29:24 PM[0m] Starting compilation in watch mode...
+
+[[90m8:29:25 PM[0m] Found 0 errors. Watching for file changes.
+
+Debugger listening on ws://0.0.0.0:9229/5da9eb60-067e-45d2-a3d3-efd5be661698
+For help, see: https://nodejs.org/en/docs/inspector
+[32m[Nest] 23042  - [39m06/11/2025, 8:29:25 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 23042  - [39m06/11/2025, 8:29:25 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +20ms[39m
+[32m[Nest] 23042  - [39m06/11/2025, 8:29:25 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 23042  - [39m06/11/2025, 8:29:25 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 23042  - [39m06/11/2025, 8:29:25 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 23042  - [39m06/11/2025, 8:29:25 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mGraphQLSchemaBuilderModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 23042  - [39m06/11/2025, 8:29:25 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mGraphQLModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 23042  - [39m06/11/2025, 8:29:26 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmCoreModule dependencies initialized[39m[38;5;3m +28ms[39m
+[32m[Nest] 23042  - [39m06/11/2025, 8:29:26 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 23042  - [39m06/11/2025, 8:29:26 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 23042  - [39m06/11/2025, 8:29:26 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mExchangeRateModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 23042  - [39m06/11/2025, 8:29:26 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mExampleModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 23042  - [39m06/11/2025, 8:29:26 PM [32m    LOG[39m [38;5;3m[GraphQLModule] [39m[32mMapped {/graphql, POST} route[39m[38;5;3m +61ms[39m
+[32m[Nest] 23042  - [39m06/11/2025, 8:29:26 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +1ms[39m
+Application is running on: http://0.0.0.0:4001
+[32m[Nest] 23042  - [39m06/11/2025, 8:29:39 PM [32m    LOG[39m [38;5;3m[ExchangeRateResolver] [39m[32mFetching exchange rates[39m
+[32m[Nest] 23042  - [39m06/11/2025, 8:29:39 PM [32m    LOG[39m [38;5;3m[ExchangeRateResolver] [39m[32mFetching exchange rates[39m
+[32m[Nest] 23042  - [39m06/11/2025, 8:29:39 PM [32m    LOG[39m [38;5;3m[ExchangeRateService] [39m[32mUsing cached exchange rates[39m
+[32m[Nest] 23042  - [39m06/11/2025, 8:29:39 PM [32m    LOG[39m [38;5;3m[ExchangeRateResolver] [39m[32mRetrieved 69 exchange rates[39m
+[95m[Nest] 23042  - [39m06/11/2025, 8:29:39 PM [95m  DEBUG[39m [38;5;3m[ExchangeRateResolver] [39m[95mFirst rate:[39m
+[95m[Nest] 23042  - [39m06/11/2025, 8:29:39 PM [95m  DEBUG[39m [38;5;3m[ExchangeRateResolver] [39m[95mObject:[39m
+{
+  "id": 69,
+  "currency": "HUF",
+  "rate": "6.1900",
+  "amount": "100.0000",
+  "country": "Maďarsko",
+  "lastUpdated": "2025-06-11T15:25:21.178Z"
+}
+
+[32m[Nest] 23042  - [39m06/11/2025, 8:29:39 PM [32m    LOG[39m [38;5;3m[ExchangeRateService] [39m[32mUsing cached exchange rates[39m
+[32m[Nest] 23042  - [39m06/11/2025, 8:29:39 PM [32m    LOG[39m [38;5;3m[ExchangeRateResolver] [39m[32mRetrieved 69 exchange rates[39m
+[95m[Nest] 23042  - [39m06/11/2025, 8:29:39 PM [95m  DEBUG[39m [38;5;3m[ExchangeRateResolver] [39m[95mFirst rate:[39m
+[95m[Nest] 23042  - [39m06/11/2025, 8:29:39 PM [95m  DEBUG[39m [38;5;3m[ExchangeRateResolver] [39m[95mObject:[39m
+{
+  "id": 69,
+  "currency": "HUF",
+  "rate": "6.1900",
+  "amount": "100.0000",
+  "country": "Maďarsko",
+  "lastUpdated": "2025-06-11T15:25:21.178Z"
+}
+
+^C

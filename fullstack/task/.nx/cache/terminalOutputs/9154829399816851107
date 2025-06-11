@@ -1,0 +1,7 @@
+> yarn vite
+
+
+[2K[1G[1myarn run v1.22.22[22m
+[2K[1G[33mwarning[39m ../../package.json: No license field
+[2K[1G[31merror[39m Command "vite" not found.
+[2K[1G[34minfo[39m Visit [1mhttps://yarnpkg.com/en/docs/cli/run[22m for documentation about this command.

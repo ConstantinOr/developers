@@ -1,0 +1,4 @@
+> pnpm nest start --debug 0.0.0.0 --watch
+
+
+This project is configured to use yarn because /Users/konstantinorehov/Desktop/Projects/new-test-task/developers/fullstack/task/package.json has a "packageManager" field
