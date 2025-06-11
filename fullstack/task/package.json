@@ -1,19 +1,24 @@
 {
     "name": "dishboard",
-    "packageManager": "yarn@3.2.3",
+    "packageManager": "yarn@4.9.2",
     "workspaces": [
         "packages/**"
     ],
     "scripts": {
-        "server": "yarn nx run --project server",
-        "client": "yarn nx run --project client",
-        "codecheck": "yarn nx run-many --target codecheck --all",
-        "codecheck:fix": "yarn nx run-many --target codecheck --configuration fix --all"
+        "server": "npx nx run server:serve",
+        "client": "npx nx run client:start",
+        "codecheck": "npx nx run-many --target codecheck --all",
+        "codecheck:fix": "npx nx run-many --target codecheck --configuration fix --all"
     },
     "dependencies": {
+        "@nx/js": "21.1.3",
+        "@nx/react": "21.1.3",
+        "@nx/workspace": "21.1.3",
         "@types/jest": "28.1.8",
+        "date-fns": "^4.1.0",
         "eslint": "8.24.0",
         "jest": "28.1.3",
+        "nx": "21.1.3",
         "prettier": "2.7.1",
         "ts-jest": "28.0.8",
         "ts-node": "^10.9.1",
@@ -21,7 +26,6 @@
     },
     "devDependencies": {
         "@types/node": "18.8.0",
-        "nx": "15.5.2",
         "tsconfig-paths": "4.1.0"
     }
 }
